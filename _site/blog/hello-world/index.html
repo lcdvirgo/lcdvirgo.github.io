@@ -145,11 +145,27 @@ If this is not working you can always refer to the updated command on <a href="h
 <div id="article-img"><a href="/media/2014-04-23-hello-world/prose.png" target="_blank"><img src="/media/2014-04-23-hello-world/prose.png" alt="Interface for Prose.io" width="100%" /></a>
 <blockquote style="border-left: 10px solid #D5D5D5;">Interface for Prose.io</blockquote></div>
 
+<h4 id="setting-up-subdomain">Setting up Subdomain</h4>
+<p>Github has <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages">execellent documentation on setting up subdomain</a>. An important step is to setup the A records that resolve to the following IP addresses:</p>
+
+<pre><code>192.30.252.153
+192.30.252.154
+</code></pre>
+
+<p>GoDaddy takes a while to forward, so it’s really helpful for me to keep track of whether the domain name has been forwarded using this command:</p>
+
+<p><code>dig example.com +nostats +nocomments +nocmd</code></p>
+
 <h4 id="some-other-beautiful-jekyll-themes">Some other beautiful Jekyll themes:</h4>
 <ul>
   <li><a href="http://jekyllthemes.org/themes/hikari/">Hikari</a></li>
   <li><a href="http://jekyllthemes.org/themes/incorporated/">Incorporated</a></li>
 </ul>
+
+<h4 id="credits">Credits</h4>
+<p><a href="http://jekyllthemes.org/themes/thinny/">Thinny Theme</a> built by <a href="http://camporez.com">Camporez</a><br />
+Proudly built on <a href="http://jekyllrb.com/">Jekyll</a><br />
+Hosted on <a href="https://pages.github.com/">Github Pages</a></p>
 
 	</div>
 	

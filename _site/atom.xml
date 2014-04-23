@@ -4,7 +4,7 @@
  <title>blog | madebychip</title>
  <link href="http://blog.madebychip.com/atom.xml" rel="self"/>
  <link href="http://blog.madebychip.com/"/>
- <updated>2014-04-23T11:01:45-07:00</updated>
+ <updated>2014-04-23T14:34:31-07:00</updated>
  <id>http://blog.madebychip.com</id>
  <author>
    <name>Ian Camporez Brunelli</name>
@@ -69,11 +69,27 @@ If this is not working you can always refer to the updated command on &lt;a href
 &lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/prose.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/prose.png&quot; alt=&quot;Interface for Prose.io&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Interface for Prose.io&lt;/blockquote&gt;&lt;/div&gt;
 
+&lt;h4 id=&quot;setting-up-subdomain&quot;&gt;Setting up Subdomain&lt;/h4&gt;
+&lt;p&gt;Github has &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages&quot;&gt;execellent documentation on setting up subdomain&lt;/a&gt;. An important step is to setup the A records that resolve to the following IP addresses:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;192.30.252.153
+192.30.252.154
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;GoDaddy takes a while to forward, so it’s really helpful for me to keep track of whether the domain name has been forwarded using this command:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;dig example.com +nostats +nocomments +nocmd&lt;/code&gt;&lt;/p&gt;
+
 &lt;h4 id=&quot;some-other-beautiful-jekyll-themes&quot;&gt;Some other beautiful Jekyll themes:&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/hikari/&quot;&gt;Hikari&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/incorporated/&quot;&gt;Incorporated&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h4 id=&quot;credits&quot;&gt;Credits&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/thinny/&quot;&gt;Thinny Theme&lt;/a&gt; built by &lt;a href=&quot;http://camporez.com&quot;&gt;Camporez&lt;/a&gt;&lt;br /&gt;
+Proudly built on &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;br /&gt;
+Hosted on &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  

@@ -60,6 +60,23 @@ I also came across [Prose.io](http://prose.io), a content Editor for Github whic
 
 {% include image.html url="/media/2014-04-23-hello-world/prose.png" width="100%" description="Interface for Prose.io" %}
 
+#### Setting up Subdomain
+Github has [execellent documentation on setting up subdomain](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages). An important step is to setup the A records that resolve to the following IP addresses:
+
+~~~
+192.30.252.153
+192.30.252.154
+~~~
+
+GoDaddy takes a while to forward, so it's really helpful for me to keep track of whether the domain name has been forwarded using this command:
+
+`dig example.com +nostats +nocomments +nocmd`
+
 #### Some other beautiful Jekyll themes:
 - [Hikari](http://jekyllthemes.org/themes/hikari/)
 - [Incorporated](http://jekyllthemes.org/themes/incorporated/)
+
+#### Credits
+[Thinny Theme](http://jekyllthemes.org/themes/thinny/) built by [Camporez](http://camporez.com)<br>
+Proudly built on [Jekyll](http://jekyllrb.com/)<br>
+Hosted on [Github Pages](https://pages.github.com/)

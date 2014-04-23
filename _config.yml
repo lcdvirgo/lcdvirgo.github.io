@@ -12,6 +12,7 @@ description:	'Um blog pessoal.'
 url:		http://blog.madebychip.com
 commentsystem:	google
 disqus:		camporez
+color: '#589FF1'
 
 author:
   name:		'Ian Camporez Brunelli'
@@ -22,6 +23,7 @@ paginate:	3
 # Custom vars
 icon:		/assets/images/icon.png
 cover:		/assets/images/cover.jpg
+color: '#589FF1'
 
 social:
   - icon:	twitter

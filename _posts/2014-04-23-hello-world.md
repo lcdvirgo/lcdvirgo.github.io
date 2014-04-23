@@ -4,8 +4,9 @@ layout: post
 title: Hello World
 quote: How I started this Jekyll blog.
 image: 
-  url: "/media/2014-02-27-hello-cosette/cover.jpg"
+  url: ""
   source: null
+color: #589FF1   
 video: false
 comments: true
 ---
@@ -39,6 +40,25 @@ Also an important reminder that we need to run this command in the terminal ever
 ~~~
 source /Users/chipdonglim/.rvm/scripts/rvm
 ~~~
+
+{% include image.html url="/media/2014-04-23-hello-world/terminal.png" width="100%" description="Ruby is successfully installed after I changed the Xcode directory." %}
+
+#### I would like to thank these post authors for writing these resources, they helped me a lot:
+- [Get Started With GitHub Pages (Plus Bonus Jekyll)](http://24ways.org/2013/get-started-with-github-pages/)
+- [Installing Ruby & Jekyll on Mac OS X](http://andytaylor.me/2012/11/03/installing-ruby-and-jekyll/)
+
+Though I would like to point out some errors on Andy Taylor's blog post, they were probably outdated:
+
+The correct command for installing Homebrew:<br>
+`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`<br>
+If this is not working you can always refer to the updated command on [Homebrew's page](http://brew.sh/).
+
+The correct command for starting Jekyll server:<br>
+`jekyll serve` not `jekyll --server`
+
+I also came across [Prose.io](http://prose.io), a content Editor for Github which allows users to preview the changes directly on Markdown, and it could function similar to Wordpress editor, which I am used to for writing blog posts. You can read more about Prose.io [here](developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/).
+
+{% include image.html url="/media/2014-04-23-hello-world/prose.png" width="100%" description="Interface for Prose.io" %}
 
 #### Some other beautiful Jekyll themes:
 - [Hikari](http://jekyllthemes.org/themes/hikari/)

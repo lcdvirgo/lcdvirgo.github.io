@@ -4,7 +4,7 @@
  <title>blog | madebychip</title>
  <link href="http://blog.madebychip.com/atom.xml" rel="self"/>
  <link href="http://blog.madebychip.com/"/>
- <updated>2014-04-23T02:28:32-07:00</updated>
+ <updated>2014-04-23T11:01:45-07:00</updated>
  <id>http://blog.madebychip.com</id>
  <author>
    <name>Ian Camporez Brunelli</name>
@@ -45,6 +45,29 @@ xcode-select --switch /Library/Developer/CommandLineTools/
 
 &lt;pre&gt;&lt;code&gt;source /Users/chipdonglim/.rvm/scripts/rvm
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/terminal.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/terminal.png&quot; alt=&quot;Ruby is successfully installed after I changed the Xcode directory.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Ruby is successfully installed after I changed the Xcode directory.&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;i-would-like-to-thank-these-post-authors-for-writing-these-resources-they-helped-me-a-lot&quot;&gt;I would like to thank these post authors for writing these resources, they helped me a lot:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://24ways.org/2013/get-started-with-github-pages/&quot;&gt;Get Started With GitHub Pages (Plus Bonus Jekyll)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://andytaylor.me/2012/11/03/installing-ruby-and-jekyll/&quot;&gt;Installing Ruby &amp;amp; Jekyll on Mac OS X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Though I would like to point out some errors on Andy Taylor’s blog post, they were probably outdated:&lt;/p&gt;
+
+&lt;p&gt;The correct command for installing Homebrew:&lt;br /&gt;
+&lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&quot;&lt;/code&gt;&lt;br /&gt;
+If this is not working you can always refer to the updated command on &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew’s page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The correct command for starting Jekyll server:&lt;br /&gt;
+&lt;code&gt;jekyll serve&lt;/code&gt; not &lt;code&gt;jekyll --server&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I also came across &lt;a href=&quot;http://prose.io&quot;&gt;Prose.io&lt;/a&gt;, a content Editor for Github which allows users to preview the changes directly on Markdown, and it could function similar to Wordpress editor, which I am used to for writing blog posts. You can read more about Prose.io &lt;a href=&quot;developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/prose.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/prose.png&quot; alt=&quot;Interface for Prose.io&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Interface for Prose.io&lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;some-other-beautiful-jekyll-themes&quot;&gt;Some other beautiful Jekyll themes:&lt;/h4&gt;
 &lt;ul&gt;

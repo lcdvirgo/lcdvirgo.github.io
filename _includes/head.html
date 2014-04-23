@@ -7,6 +7,7 @@
 	<meta property="og:description" content="{% if page.quote %}{{ page.quote }}{% else %}{{ page.content | strip_html | truncatewords: 20 }}{% endif %}" />
 	<meta itemprop="image" content="{% if page.image.url %}{{ site.url }}{{ page.image.url }}{% else %}{{ site.url }}{{ site.icon }}{% endif %}" />
 	<meta property="og:image" content="{% if page.image.url %}{{ site.url }}{{ page.image.url }}{% else %}{{ site.url }}{{ site.icon }}{% endif %}" />
+	<meta content="color" property="og:color">
 	<meta property="og:title" content="{{ page.title }}" />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content="{{ canonical }}" />

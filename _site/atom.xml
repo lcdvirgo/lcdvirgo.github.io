@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Camporez</title>
- <link href="http://camporez.com/atom.xml" rel="self"/>
- <link href="http://camporez.com/"/>
- <updated>2014-04-22T23:03:46-07:00</updated>
- <id>http://camporez.com</id>
+ <title>blog | madebychip</title>
+ <link href="http://blog.madebychip.com/atom.xml" rel="self"/>
+ <link href="http://blog.madebychip.com/"/>
+ <updated>2014-04-23T01:40:52-07:00</updated>
+ <id>http://blog.madebychip.com</id>
  <author>
    <name>Ian Camporez Brunelli</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Hello, Cosette</title>
-   <link href="http://camporez.com/blog/hello-cosette"/>
+   <link href="http://blog.madebychip.com/blog/hello-cosette"/>
    <updated>2014-02-27T00:00:00-08:00</updated>
-   <id>http://camporez.com/blog/hello-cosette</id>
+   <id>http://blog.madebychip.com/blog/hello-cosette</id>
    <content type="html">&lt;h1 id=&quot;thinny-21-codename-cosettehttplesmiserableswikiacomwikicosette&quot;&gt;Thinny 2.1, codename “&lt;a href=&quot;http://lesmiserables.wikia.com/wiki/Cosette&quot;&gt;Cosette&lt;/a&gt;”&lt;/h1&gt;
 
 &lt;p&gt;Cosette is the main character of the french novel &lt;em&gt;Les Misérables&lt;/em&gt;, published in 1862 by &lt;em&gt;Victor Hugo&lt;/em&gt;.&lt;/p&gt;
@@ -141,9 +141,9 @@
  
  <entry>
    <title>Thinny 2: a Jekyll theme</title>
-   <link href="http://camporez.com/blog/thinny-2"/>
+   <link href="http://blog.madebychip.com/blog/thinny-2"/>
    <updated>2014-01-22T00:00:00-08:00</updated>
-   <id>http://camporez.com/blog/thinny-2</id>
+   <id>http://blog.madebychip.com/blog/thinny-2</id>
    <content type="html">&lt;p&gt;Three months ago, I released an (unfinished) theme for Ghost 0.3: &lt;a href=&quot;http://github.com/camporez/Thinny&quot;&gt;Thinny 0.3&lt;/a&gt;, codename “&lt;a href=&quot;http://nikita2010.wikia.com/wiki/Alexandra_Udinov&quot;&gt;Alexandra&lt;/a&gt;”.
 But now I’m migrating my blog to Jekyll, and also migrating the theme. With a brand new look, Thinny 2 also brings a lot of new features and polishment. Actually, it was completely remaked.&lt;/p&gt;
 
@@ -164,7 +164,16 @@ But now I’m migrating my blog to Jekyll, and also migrating the theme. With a 
 &lt;/ul&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Citations, like &lt;cite&gt;— Camporez&lt;/cite&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Citations, like &lt;cite&gt;— blog&lt;/cite&gt;&lt;/td&gt;
+          &lt;td&gt;madebychip&amp;lt;/cite&amp;gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
   &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
@@ -230,9 +239,9 @@ But now I’m migrating my blog to Jekyll, and also migrating the theme. With a 
  
  <entry>
    <title>Making application's icon smaller on GNOME Shell's top panel</title>
-   <link href="http://camporez.com/blog/making-applications-icon-smaller-on-gnome-shells-top-panel"/>
+   <link href="http://blog.madebychip.com/blog/making-applications-icon-smaller-on-gnome-shells-top-panel"/>
    <updated>2013-11-19T00:00:00-08:00</updated>
-   <id>http://camporez.com/blog/making-applications-icon-smaller-on-gnome-shells-top-panel</id>
+   <id>http://blog.madebychip.com/blog/making-applications-icon-smaller-on-gnome-shells-top-panel</id>
    <content type="html">&lt;p&gt;I’m a huge fan of GNOME Shell. Using it since the release of version 3.0, is great to see how things has been polished. However, one of the things that always annoyed me is the app icon on the top bar, because it’s unnecessarily big, in my opinion.&lt;/p&gt;
 
 &lt;p&gt;A long time ago I found &lt;a href=&quot;http://www.gregfreeman.org/2011/remove-application-icon-from-gnome-3/&quot;&gt;this good tutorial&lt;/a&gt; showing how to remove the icon, but it was not what I wanted, I just wanted to make it smaller, like this:&lt;/p&gt;

@@ -1,5 +1,12 @@
 ---
 published: false
+layout: post
+quote: How I started this Jekyll blog.
+image: 
+  url: "/media/2014-02-27-hello-cosette/cover.jpg"
+  source: null
+video: false
+comments: true
 ---
 
 ## Hello World!

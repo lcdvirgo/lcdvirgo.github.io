@@ -200,6 +200,10 @@ h3 {
 	margin-bottom:0;
 }
 
+ul, p {
+	margin:0;
+}
+
 #comments {
 	text-align: center;
 }

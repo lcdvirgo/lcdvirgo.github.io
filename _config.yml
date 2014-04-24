@@ -6,17 +6,17 @@ pygments:	true
 permalink:	/blog/:title
 
 # Setup
-title:		blog | madebychip
+title:		journal | madebychip
 tagline:	'blog'
-description:	'Um blog pessoal.'
-url:		http://blog.madebychip.com
+description:	'My design journal'
+url:		http://journal.madebychip.com
 commentsystem:	google
-disqus:		camporez
+disqus:		madebychip
 color: '#589FF1'
 
 author:
-  name:		'Ian Camporez Brunelli'
-  url:		https://google.com/+IanCamporezBrunelli
+  name:		'Chip Dong lim'
+  url:		http://madebychip.com
 
 paginate:	3
 
@@ -27,31 +27,31 @@ color: '#589FF1'
 
 social:
   - icon:	twitter
-    url:	https://twitter.com/iancamporez
-    desc:	Siga-me no twitter
+    url:	https://twitter.com/lcdvirgo
+    desc:	Follow me on twitter
 
   - icon:	github
-    url:	https://github.com/camporez
-    desc:	Acesse meu github
+    url:	https://github.com/lcdvirgo
+    desc:	Fork me on github
 
   - icon:	googleplus-alt
-    url:	https://google.com/+IanCamporezBrunelli
-    desc:	Me adicione ao google+
+    url:	http://plus.google.com/u/0/104292088680089345189
+    desc:	Add me on google+
 
-  - icon:	feed
-    url:	http://camporez.com/atom.xml
-    desc:	Inscreva-se no meu feed
+  # - icon:	feed
+  # url:	http://camporez.com/atom.xml
+  #  desc:	Inscreva-se no meu feed
     
 menu:
-  - title:	Início
+  - title:	Portfolio
     url:	http://madebychip.com
     
-  - title:	Sobre
-    url:	http://camporez.com/sobre
+  - title:	About
+    url:	blog/hello-world/
 
 
 copyright:
-  author:	Camporez
+  author:	Chip Dong Lim
   url:		http://madebychip.com
   type_title:	Alguns direitos reservados
   type_url:	http://creativecommons.org/licenses/by-nc/2.5/br

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>blog | madebychip</title>
- <link href="http://blog.madebychip.com/atom.xml" rel="self"/>
- <link href="http://blog.madebychip.com/"/>
- <updated>2014-04-23T14:34:31-07:00</updated>
- <id>http://blog.madebychip.com</id>
+ <title>journal | madebychip</title>
+ <link href="http://journal.madebychip.com/atom.xml" rel="self"/>
+ <link href="http://journal.madebychip.com/"/>
+ <updated>2014-04-23T21:48:18-07:00</updated>
+ <id>http://journal.madebychip.com</id>
  <author>
-   <name>Ian Camporez Brunelli</name>
+   <name>Chip Dong lim</name>
    <email></email>
  </author>
 
  
  <entry>
    <title>Hello World</title>
-   <link href="http://blog.madebychip.com/blog/hello-world"/>
+   <link href="http://journal.madebychip.com/blog/hello-world"/>
    <updated>2014-04-23T00:00:00-07:00</updated>
-   <id>http://blog.madebychip.com/blog/hello-world</id>
+   <id>http://journal.madebychip.com/blog/hello-world</id>
    <content type="html">&lt;h2 id=&quot;hello-world&quot;&gt;Hello World!&lt;/h2&gt;
 
 &lt;p&gt;No, this is not a typical default hello world post on some Wordpress blog.&lt;/p&gt;
@@ -49,7 +49,7 @@ xcode-select --switch /Library/Developer/CommandLineTools/
 &lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/terminal.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/terminal.png&quot; alt=&quot;Ruby is successfully installed after I changed the Xcode directory.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Ruby is successfully installed after I changed the Xcode directory.&lt;/blockquote&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;i-would-like-to-thank-these-post-authors-for-writing-these-resources-they-helped-me-a-lot&quot;&gt;I would like to thank these post authors for writing these resources, they helped me a lot:&lt;/h4&gt;
+&lt;h3 id=&quot;i-would-like-to-thank-these-post-authors-for-writing-these-resources-they-helped-me-a-lot&quot;&gt;I would like to thank these post authors for writing these resources, they helped me a lot:&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://24ways.org/2013/get-started-with-github-pages/&quot;&gt;Get Started With GitHub Pages (Plus Bonus Jekyll)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://andytaylor.me/2012/11/03/installing-ruby-and-jekyll/&quot;&gt;Installing Ruby &amp;amp; Jekyll on Mac OS X&lt;/a&gt;&lt;/li&gt;
@@ -80,13 +80,13 @@ If this is not working you can always refer to the updated command on &lt;a href
 
 &lt;p&gt;&lt;code&gt;dig example.com +nostats +nocomments +nocmd&lt;/code&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;some-other-beautiful-jekyll-themes&quot;&gt;Some other beautiful Jekyll themes:&lt;/h4&gt;
+&lt;h2 id=&quot;some-other-beautiful-jekyll-themes&quot;&gt;Some other beautiful Jekyll themes:&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/hikari/&quot;&gt;Hikari&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/incorporated/&quot;&gt;Incorporated&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;credits&quot;&gt;Credits&lt;/h4&gt;
+&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/thinny/&quot;&gt;Thinny Theme&lt;/a&gt; built by &lt;a href=&quot;http://camporez.com&quot;&gt;Camporez&lt;/a&gt;&lt;br /&gt;
 Proudly built on &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;br /&gt;
 Hosted on &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;&lt;/p&gt;
@@ -95,9 +95,9 @@ Hosted on &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a
  
  <entry>
    <title>Hello, Cosette</title>
-   <link href="http://blog.madebychip.com/blog/hello-cosette"/>
+   <link href="http://journal.madebychip.com/blog/hello-cosette"/>
    <updated>2014-02-27T00:00:00-08:00</updated>
-   <id>http://blog.madebychip.com/blog/hello-cosette</id>
+   <id>http://journal.madebychip.com/blog/hello-cosette</id>
    <content type="html">&lt;h1 id=&quot;thinny-21-codename-cosettehttplesmiserableswikiacomwikicosette&quot;&gt;Thinny 2.1, codename “&lt;a href=&quot;http://lesmiserables.wikia.com/wiki/Cosette&quot;&gt;Cosette&lt;/a&gt;”&lt;/h1&gt;
 
 &lt;p&gt;Cosette is the main character of the french novel &lt;em&gt;Les Misérables&lt;/em&gt;, published in 1862 by &lt;em&gt;Victor Hugo&lt;/em&gt;.&lt;/p&gt;
@@ -222,9 +222,9 @@ Hosted on &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a
  
  <entry>
    <title>Thinny 2: a Jekyll theme</title>
-   <link href="http://blog.madebychip.com/blog/thinny-2"/>
+   <link href="http://journal.madebychip.com/blog/thinny-2"/>
    <updated>2014-01-22T00:00:00-08:00</updated>
-   <id>http://blog.madebychip.com/blog/thinny-2</id>
+   <id>http://journal.madebychip.com/blog/thinny-2</id>
    <content type="html">&lt;p&gt;Three months ago, I released an (unfinished) theme for Ghost 0.3: &lt;a href=&quot;http://github.com/camporez/Thinny&quot;&gt;Thinny 0.3&lt;/a&gt;, codename “&lt;a href=&quot;http://nikita2010.wikia.com/wiki/Alexandra_Udinov&quot;&gt;Alexandra&lt;/a&gt;”.
 But now I’m migrating my blog to Jekyll, and also migrating the theme. With a brand new look, Thinny 2 also brings a lot of new features and polishment. Actually, it was completely remaked.&lt;/p&gt;
 
@@ -249,7 +249,7 @@ But now I’m migrating my blog to Jekyll, and also migrating the theme. With a 
     &lt;table&gt;
       &lt;tbody&gt;
         &lt;tr&gt;
-          &lt;td&gt;Citations, like &lt;cite&gt;— blog&lt;/cite&gt;&lt;/td&gt;
+          &lt;td&gt;Citations, like &lt;cite&gt;— journal&lt;/cite&gt;&lt;/td&gt;
           &lt;td&gt;madebychip&amp;lt;/cite&amp;gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/td&gt;
         &lt;/tr&gt;
       &lt;/tbody&gt;
@@ -320,9 +320,9 @@ But now I’m migrating my blog to Jekyll, and also migrating the theme. With a 
  
  <entry>
    <title>Making application's icon smaller on GNOME Shell's top panel</title>
-   <link href="http://blog.madebychip.com/blog/making-applications-icon-smaller-on-gnome-shells-top-panel"/>
+   <link href="http://journal.madebychip.com/blog/making-applications-icon-smaller-on-gnome-shells-top-panel"/>
    <updated>2013-11-19T00:00:00-08:00</updated>
-   <id>http://blog.madebychip.com/blog/making-applications-icon-smaller-on-gnome-shells-top-panel</id>
+   <id>http://journal.madebychip.com/blog/making-applications-icon-smaller-on-gnome-shells-top-panel</id>
    <content type="html">&lt;p&gt;I’m a huge fan of GNOME Shell. Using it since the release of version 3.0, is great to see how things has been polished. However, one of the things that always annoyed me is the app icon on the top bar, because it’s unnecessarily big, in my opinion.&lt;/p&gt;
 
 &lt;p&gt;A long time ago I found &lt;a href=&quot;http://www.gregfreeman.org/2011/remove-application-icon-from-gnome-3/&quot;&gt;this good tutorial&lt;/a&gt; showing how to remove the icon, but it was not what I wanted, I just wanted to make it smaller, like this:&lt;/p&gt;

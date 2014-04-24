@@ -6,7 +6,8 @@ quote: How I started this Jekyll blog.
 image: 
   url: ""
   source: null
-color: #589FF1   
+color: #589FF1  
+posted: Published 
 video: false
 comments: true
 ---
@@ -43,7 +44,7 @@ source /Users/chipdonglim/.rvm/scripts/rvm
 
 {% include image.html url="/media/2014-04-23-hello-world/terminal.png" width="100%" description="Ruby is successfully installed after I changed the Xcode directory." %}
 
-#### I would like to thank these post authors for writing these resources, they helped me a lot:
+### I would like to thank these post authors for writing these resources, they helped me a lot:
 - [Get Started With GitHub Pages (Plus Bonus Jekyll)](http://24ways.org/2013/get-started-with-github-pages/)
 - [Installing Ruby & Jekyll on Mac OS X](http://andytaylor.me/2012/11/03/installing-ruby-and-jekyll/)
 
@@ -72,11 +73,11 @@ GoDaddy takes a while to forward, so it's really helpful for me to keep track of
 
 `dig example.com +nostats +nocomments +nocmd`
 
-#### Some other beautiful Jekyll themes:
+## Some other beautiful Jekyll themes:
 - [Hikari](http://jekyllthemes.org/themes/hikari/)
 - [Incorporated](http://jekyllthemes.org/themes/incorporated/)
 
-#### Credits
+## Credits
 [Thinny Theme](http://jekyllthemes.org/themes/thinny/) built by [Camporez](http://camporez.com)<br>
 Proudly built on [Jekyll](http://jekyllrb.com/)<br>
 Hosted on [Github Pages](https://pages.github.com/)

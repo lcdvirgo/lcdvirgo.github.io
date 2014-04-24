@@ -22,6 +22,7 @@ paginate:	3
 
 # Custom vars
 icon:		/assets/images/icon.png
+profile:   /assets/images/profile.jpg
 cover:		/assets/images/cover.jpg
 color: '#589FF1'
 
@@ -53,5 +54,5 @@ menu:
 copyright:
   author:	Chip Dong Lim
   url:		http://madebychip.com
-  type_title:	Alguns direitos reservados
-  type_url:	http://creativecommons.org/licenses/by-nc/2.5/br
+  #type_title:	Alguns direitos reservados
+  #type_url:	http://creativecommons.org/licenses/by-nc/2.5/br

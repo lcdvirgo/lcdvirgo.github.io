@@ -4,7 +4,7 @@
  <title>journal | madebychip</title>
  <link href="http://journal.madebychip.com/atom.xml" rel="self"/>
  <link href="http://journal.madebychip.com/"/>
- <updated>2014-04-23T21:48:18-07:00</updated>
+ <updated>2014-04-23T22:55:37-07:00</updated>
  <id>http://journal.madebychip.com</id>
  <author>
    <name>Chip Dong lim</name>
@@ -69,7 +69,7 @@ If this is not working you can always refer to the updated command on &lt;a href
 &lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/prose.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/prose.png&quot; alt=&quot;Interface for Prose.io&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Interface for Prose.io&lt;/blockquote&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;setting-up-subdomain&quot;&gt;Setting up Subdomain&lt;/h4&gt;
+&lt;h2 id=&quot;setting-up-subdomain&quot;&gt;Setting up Subdomain&lt;/h2&gt;
 &lt;p&gt;Github has &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages&quot;&gt;execellent documentation on setting up subdomain&lt;/a&gt;. An important step is to setup the A records that resolve to the following IP addresses:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;192.30.252.153

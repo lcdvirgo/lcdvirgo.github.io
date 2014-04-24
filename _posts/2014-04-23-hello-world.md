@@ -61,7 +61,7 @@ I also came across [Prose.io](http://prose.io), a content Editor for Github whic
 
 {% include image.html url="/media/2014-04-23-hello-world/prose.png" width="100%" description="Interface for Prose.io" %}
 
-#### Setting up Subdomain
+## Setting up Subdomain
 Github has [execellent documentation on setting up subdomain](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages). An important step is to setup the A records that resolve to the following IP addresses:
 
 ~~~

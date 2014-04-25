@@ -14,70 +14,24 @@ comments: true
 
 ## Iteration, and iteration
 
-No, this is not a typical default hello world post on some Wordpress blog.
+I have been working at The Daily, the student newspaper at the University of Washington for more than 4 months now. But I have been presented a design challenge - a new section called "Beer To The Streets"(which later renamed to "Hops, Sip and a Chug") is added this quarter, and the Arts & Leisure editor, Andre and I have been figuring out about the design and layout for the past few weeks.<br>
 
-I have successfully installed [Jekyll](http://jekyllrb.com)! And deployed it on [Github Pages](https://pages.github.com). I came across [Karan's blog](http://karan.github.io) and he told me the site is using Jekyll. I have been struggling to decide whether I should have my blog on Wordpress/Jekyll/Medium/[Svbtle](https://svbtle.com)(I will write about on a new post some other time), but what really pushed me to start this Jekyll blog is because I stumbled across [this beautiful theme I could use](http://jekyllthemes.org/themes/thinny) from [Jekyll Themes](http://jekyllthemes.org/).
+Below is the screenshot in InDesign for the section that I designed last week. I took an info visualization approach because I want to make the facts and information eye catching for readers. And yeah, it turned out there's some Microsoft agenda when I was designing it :)<br>
 
-{% include image.html url="/media/2014-04-23-hello-world/thinny.png" width="100%" description="Screenshot of Thinny theme on Jekyll Themes." %}
+{% include image.html url="/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/0417.jpg" width="100%" description="Hops, Sip and a Chug beer section I desgined last week, which was published on April 18th." %}
 
-I have problem installing Xcode Command Line Tools on my computer since [CodeAcrossSeattle Hackathon](https://medium.com/p/1a741836f226). Thank god I finally [found the solution on Stack Overflow](http://stackoverflow.com/questions/4518031/issue-installing-ruby-by-rvm-error-while-running-configure), I was installing the Command Line Tools on the wrong directory previously:
+The design was well-accepted according to Andre. But we need to create a new logo this week in addition of last week's design. Initially I had an idea of having the title to become a graphics block at the left side bar of the section, but there's more space on the top so I shifted it to become the top header.
 
-~~~
-after which make sure Xcode command line tools is pointed correctly using this command
+{% include image.html url="/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/ScreenShot 2014-04-24 at 10.32.27 PM.png" width="100%" %}
 
-xcode-select -p
+I was having a weird feeling about the design. The title looks like paper cut magazine style and it doesn't really suit the beer context. I had an inspiration from a picture on Pinterest that has artsy and letter-type fonts. Andrew recommended that I download some types from [LostType](http://www.losttype.com/), but then I raised the concern of commercial use license since The Daily is a for-profit organization. We resorted to use [Aw Conqueror from Typofonderie](https://typofonderie.com/fonts/aw-conqueror-family/), which is an awesome font with various styles, and it's free and for commercial use.
 
-Which might show some path like
+{% include image.html url="/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/ScreenShot 2014-04-24 at 10.30.48 PM.png" width="100%" description="Title font changed to Aw Conqueror." %}
 
-/Applications/Xcode.app/Contents/Developer
 
-Change the path to correct path using the switch command
+After this was done, Andre raised the concern about the current design not having the title and info visualization matches together, because one has a grungy background and the other one is more of a flat design. In his opinion, last week's design has blended the title and the facts well. I listened to the feedback, agreed and decided that it's better to have a consistent design - it's either the background header has to be flat design, or the info blocks have to get the grungy background. I like the first option, so I changed the background and the font, and this is how it looks like for final design:
 
-xcode-select --switch /Library/Developer/CommandLineTools/
-~~~
+{% include image.html url="/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/ScreenShot 2014-04-24 at 10.30.11 PM.png" width="100%" description="Changing title font and background to be consistent with page layout." %}
 
-Also an important reminder that we need to run this command in the terminal everytime we try to run RVM:
 
-~~~
-source /Users/chipdonglim/.rvm/scripts/rvm
-~~~
-
-{% include image.html url="/media/2014-04-23-hello-world/terminal.png" width="100%" description="Ruby is successfully installed after I changed the Xcode directory." %}
-
-### I would like to thank these post authors for writing these resources, they helped me a lot:
-- [Get Started With GitHub Pages (Plus Bonus Jekyll)](http://24ways.org/2013/get-started-with-github-pages/)
-- [Installing Ruby & Jekyll on Mac OS X](http://andytaylor.me/2012/11/03/installing-ruby-and-jekyll/)
-
-Though I would like to point out some errors on Andy Taylor's blog post, they were probably outdated:
-
-The correct command for installing Homebrew:<br>
-`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`<br>
-If this is not working you can always refer to the updated command on [Homebrew's page](http://brew.sh/).
-
-The correct command for starting Jekyll server:<br>
-`jekyll serve` not `jekyll --server`
-
-I also came across [Prose.io](http://prose.io), a content Editor for Github which allows users to preview the changes directly on Markdown, and it could function similar to Wordpress editor, which I am used to for writing blog posts. You can read more about Prose.io [here](developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/).
-
-{% include image.html url="/media/2014-04-23-hello-world/prose.png" width="100%" description="Interface for Prose.io" %}
-
-## Setting up Subdomain
-Github has [execellent documentation on setting up subdomain](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages). An important step is to setup the A records that resolve to the following IP addresses:
-
-~~~
-192.30.252.153
-192.30.252.154
-~~~
-
-GoDaddy takes a while to forward, so it's really helpful for me to keep track of whether the domain name has been forwarded using this command:
-
-`dig example.com +nostats +nocomments +nocmd`
-
-## Some other beautiful Jekyll themes:
-- [Hikari](http://jekyllthemes.org/themes/hikari/)
-- [Incorporated](http://jekyllthemes.org/themes/incorporated/)
-
-## Credits
-[Thinny Theme](http://jekyllthemes.org/themes/thinny/) built by [Camporez](http://camporez.com)<br>
-Proudly built on [Jekyll](http://jekyllrb.com/)<br>
-Hosted on [Github Pages](https://pages.github.com/)
+I was working there for more than 3 hours, which is way overtime than I am supposed to be. But I am documenting this because I have learnt something useful this evening. More iterations are going to come for the next few weeks, but I am happy how the design turned out - the consistent flat design throughout the section and the color scheme that match well together. 

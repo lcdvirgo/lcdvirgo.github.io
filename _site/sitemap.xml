@@ -9,6 +9,18 @@
         <loc>http://journal.madebychip.com/blog/hello-world</loc>
     </url>
     
+    <url>
+        <loc>http://journal.madebychip.com/blog/hello-cosette</loc>
+    </url>
+    
+    <url>
+        <loc>http://journal.madebychip.com/blog/thinny-2</loc>
+    </url>
+    
+    <url>
+        <loc>http://journal.madebychip.com/blog/making-applications-icon-smaller-on-gnome-shells-top-panel</loc>
+    </url>
+    
 
     
     
@@ -30,30 +42,6 @@
     
     
     <url>
-        <loc>http://journal.madebychip.com/default post/2013-11-19-making-applications-icon-smaller-on-gnome-shells-top-panel.html</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>http://journal.madebychip.com/default post/2014-01-22-thinny-2.html</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>http://journal.madebychip.com/default post/2014-02-27-hello-cosette.html</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
         <loc>http://journal.madebychip.com/</loc>
     </url>
     
@@ -65,6 +53,14 @@
     
     <url>
         <loc>http://journal.madebychip.com/sobre.html</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://journal.madebychip.com/page2/</loc>
     </url>
     
     

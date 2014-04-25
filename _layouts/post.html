@@ -3,7 +3,7 @@ layout: default
 article: true
 ---
 
-<header class="{% if page.dark %}dark{% else %}clean{% endif %}" style="background-image: url({% if page.image.url %}{{ page.image.url }}{% else %}{{ site.cover }}{% endif %}); background-color: {{ site.color }}; height: 100%;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
+<header class="{% if page.dark %}dark{% else %}clean{% endif %}" style="background-color: {{ page.color }}; background-image: url({% if page.image.url %}{{ page.image.url }}{% else %}{{ site.cover }}{% endif %});  height: 100%;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
 	{% if page.video %}
 		<video id="bg-video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" data-stellar-ratio="0.5">
 		{% for format in page.video %}
@@ -41,21 +41,23 @@ article: true
 {% if page.next %}
 	{% capture footer_style %}{% if page.next.dark %}dark{% else %}clean{% endif %}{% endcapture %}
 	{% capture footer_image %}{% if page.next.image.url %}{{ page.next.image.url }}{% else %}{{ site.cover }}{% endif %}{% endcapture %}
-	{% capture footer_message %}Leia a seguir{% endcapture %}
+	{% capture footer_message %}READ ON{% endcapture %}
 	{% capture footer_url %}{{ page.next.url }}{% endcapture %}
 	{% capture footer_title %}{{ page.next.title }}{% endcapture %}
 	{% capture footer_quote %}{{ page.next.quote }}{% endcapture %}
+	{% capture footer_color %}{{ page.next.color }}{% endcapture %}
 {% else %}
 	{% for post in site.related_posts limit:1 %}
 		{% capture footer_style %}{% if post.dark %}dark{% else %}clean{% endif %}{% endcapture %}
 		{% capture footer_image %}{% if post.image.url %}{{ post.image.url }}{% else %}{{ site.cover }}{% endif %}{% endcapture %}
-		{% capture footer_message %}Em destaque{% endcapture %}
+		{% capture footer_message %}NEXT JOURNAL POST{% endcapture %}
 		{% capture footer_url %}{{ post.url }}{% endcapture %}
 		{% capture footer_title %}{{ post.title }}{% endcapture %}
 		{% capture footer_quote %}{{ post.quote }}{% endcapture %}
+		{% capture footer_color %}{{ post.color }}{% endcapture %}
 	{% endfor %}
 {% endif %}
-<footer class="{{ footer_style }}" style="background-image: url({% if footer_image %}{{ footer_image }}{% else %}{{ site.cover }}{% endif %}); background-color: {{ site.color }}; height: 75%; min-height: 500px;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50" data-stellar-vertical-offset="50">
+<footer class="{{ footer_style }}" style="background-image: url({% if footer_image %}{{ footer_image }}{% else %}{{ site.cover }}{% endif %}); background-color: {{ footer_color }}; height: 75%; min-height: 500px;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50" data-stellar-vertical-offset="50">
 	<div id="nav-icon" style="top: 60px;" data-stellar-ratio="0.8">
 		<a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-collapse"></span></a>
 	</div>

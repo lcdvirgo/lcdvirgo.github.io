@@ -1,18 +1,18 @@
 ---
 published: true
 layout: post
-title: Hello World
-quote: How I started this Jekyll blog.
+title: Something I learnt when I designed The Daily today
+quote: It's all about consistency.
 image: 
   url: ""
   source: null
-color: "#589FF1"  
+color: "#632e9d"
 posted: Published 
 video: false
 comments: true
 ---
 
-## Hello World!
+## Iteration, and iteration
 
 No, this is not a typical default hello world post on some Wordpress blog.
 

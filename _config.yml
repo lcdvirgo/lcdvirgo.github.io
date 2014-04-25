@@ -24,7 +24,7 @@ paginate:	3
 icon:		/assets/images/icon.png
 profile:   /assets/images/profile.jpg
 cover:		/assets/images/cover.jpg
-color: '#589FF1'
+color: ''
 
 social:
   - icon:	twitter

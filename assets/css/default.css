@@ -68,6 +68,8 @@ h3 {
 #post-info h1 {
 	/* font-weight: bold; */
 	font-family: HelveticaNeueBold;
+	font-size: 44px;
+	line-height: 54px;
 	margin: 15px 0px;
 }
 
@@ -337,7 +339,6 @@ pre code {
 
 .clean {
 	color: #eee;
-	background-color: #888;
 }
 
 .clean a {

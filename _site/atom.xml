@@ -4,13 +4,94 @@
  <title>journal | madebychip</title>
  <link href="http://journal.madebychip.com/atom.xml" rel="self"/>
  <link href="http://journal.madebychip.com/"/>
- <updated>2014-04-23T22:55:37-07:00</updated>
+ <updated>2014-04-24T23:45:50-07:00</updated>
  <id>http://journal.madebychip.com</id>
  <author>
    <name>Chip Dong lim</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Something I learnt when I designed The Daily today</title>
+   <link href="http://journal.madebychip.com/blog/something-i-learnt-when-i-designed-the-daily-today"/>
+   <updated>2014-04-24T00:00:00-07:00</updated>
+   <id>http://journal.madebychip.com/blog/something-i-learnt-when-i-designed-the-daily-today</id>
+   <content type="html">&lt;h2 id=&quot;iteration-and-iteration&quot;&gt;Iteration, and iteration&lt;/h2&gt;
+
+&lt;p&gt;No, this is not a typical default hello world post on some Wordpress blog.&lt;/p&gt;
+
+&lt;p&gt;I have successfully installed &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;! And deployed it on &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;. I came across &lt;a href=&quot;http://karan.github.io&quot;&gt;Karan’s blog&lt;/a&gt; and he told me the site is using Jekyll. I have been struggling to decide whether I should have my blog on Wordpress/Jekyll/Medium/&lt;a href=&quot;https://svbtle.com&quot;&gt;Svbtle&lt;/a&gt;(I will write about on a new post some other time), but what really pushed me to start this Jekyll blog is because I stumbled across &lt;a href=&quot;http://jekyllthemes.org/themes/thinny&quot;&gt;this beautiful theme I could use&lt;/a&gt; from &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;Jekyll Themes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/thinny.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/thinny.png&quot; alt=&quot;Screenshot of Thinny theme on Jekyll Themes.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Screenshot of Thinny theme on Jekyll Themes.&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;I have problem installing Xcode Command Line Tools on my computer since &lt;a href=&quot;https://medium.com/p/1a741836f226&quot;&gt;CodeAcrossSeattle Hackathon&lt;/a&gt;. Thank god I finally &lt;a href=&quot;http://stackoverflow.com/questions/4518031/issue-installing-ruby-by-rvm-error-while-running-configure&quot;&gt;found the solution on Stack Overflow&lt;/a&gt;, I was installing the Command Line Tools on the wrong directory previously:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;after which make sure Xcode command line tools is pointed correctly using this command
+
+xcode-select -p
+
+Which might show some path like
+
+/Applications/Xcode.app/Contents/Developer
+
+Change the path to correct path using the switch command
+
+xcode-select --switch /Library/Developer/CommandLineTools/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also an important reminder that we need to run this command in the terminal everytime we try to run RVM:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;source /Users/chipdonglim/.rvm/scripts/rvm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/terminal.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/terminal.png&quot; alt=&quot;Ruby is successfully installed after I changed the Xcode directory.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Ruby is successfully installed after I changed the Xcode directory.&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;i-would-like-to-thank-these-post-authors-for-writing-these-resources-they-helped-me-a-lot&quot;&gt;I would like to thank these post authors for writing these resources, they helped me a lot:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://24ways.org/2013/get-started-with-github-pages/&quot;&gt;Get Started With GitHub Pages (Plus Bonus Jekyll)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://andytaylor.me/2012/11/03/installing-ruby-and-jekyll/&quot;&gt;Installing Ruby &amp;amp; Jekyll on Mac OS X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Though I would like to point out some errors on Andy Taylor’s blog post, they were probably outdated:&lt;/p&gt;
+
+&lt;p&gt;The correct command for installing Homebrew:&lt;br /&gt;
+&lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&quot;&lt;/code&gt;&lt;br /&gt;
+If this is not working you can always refer to the updated command on &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew’s page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The correct command for starting Jekyll server:&lt;br /&gt;
+&lt;code&gt;jekyll serve&lt;/code&gt; not &lt;code&gt;jekyll --server&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I also came across &lt;a href=&quot;http://prose.io&quot;&gt;Prose.io&lt;/a&gt;, a content Editor for Github which allows users to preview the changes directly on Markdown, and it could function similar to Wordpress editor, which I am used to for writing blog posts. You can read more about Prose.io &lt;a href=&quot;developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/prose.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/prose.png&quot; alt=&quot;Interface for Prose.io&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Interface for Prose.io&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;setting-up-subdomain&quot;&gt;Setting up Subdomain&lt;/h2&gt;
+&lt;p&gt;Github has &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages&quot;&gt;execellent documentation on setting up subdomain&lt;/a&gt;. An important step is to setup the A records that resolve to the following IP addresses:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;192.30.252.153
+192.30.252.154
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;GoDaddy takes a while to forward, so it’s really helpful for me to keep track of whether the domain name has been forwarded using this command:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;dig example.com +nostats +nocomments +nocmd&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;some-other-beautiful-jekyll-themes&quot;&gt;Some other beautiful Jekyll themes:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/hikari/&quot;&gt;Hikari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/incorporated/&quot;&gt;Incorporated&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://jekyllthemes.org/themes/thinny/&quot;&gt;Thinny Theme&lt;/a&gt; built by &lt;a href=&quot;http://camporez.com&quot;&gt;Camporez&lt;/a&gt;&lt;br /&gt;
+Proudly built on &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;br /&gt;
+Hosted on &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Hello World</title>

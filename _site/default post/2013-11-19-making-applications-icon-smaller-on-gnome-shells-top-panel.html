@@ -40,6 +40,13 @@
 	  ga('send', 'pageview');
 
 	</script>
+	<script>
+		$( document ).ready(function() {
+    	// Open links in new tab. Thanks http://stackoverflow.com/questions/4425198/markdown-target-blank
+ 			$('a').attr('target','_blank');
+		});
+		
+	</script>
 </head>
 
 	<body>
@@ -99,7 +106,7 @@
 <p>A long time ago I found <a href="http://www.gregfreeman.org/2011/remove-application-icon-from-gnome-3/">this good tutorial</a> showing how to remove the icon, but it was not what I wanted, I just wanted to make it smaller, like this:</p>
 
 <div id="article-img"><a href="https://github.com/gnome-design-team/gnome-mockups/raw/master/music/music-albums.png" target="_blank"><img src="https://github.com/gnome-design-team/gnome-mockups/raw/master/music/music-albums.png" alt="GNOME Music's mockup showing a smaller icon on the top panel, via GNOME Wiki" /></a>
- <blockquote style="border-left: 10px solid #D5D5D5;">GNOME Music's mockup showing a smaller icon on the top panel, via GNOME Wiki </blockquote></div>
+ <blockquote style="border-left: 10px solid #D5D5D5; margin-bottom:10px;">GNOME Music's mockup showing a smaller icon on the top panel, via GNOME Wiki </blockquote></div>
 
 <p>So, after a lot of unsuccessful tentatives on changing <em>gnome-shell.css</em>, I realized that this setup is made with <em>javascript</em>, and not just <em>css</em>, and I decided to write this small tutorial.</p>
 

@@ -40,6 +40,13 @@
 	  ga('send', 'pageview');
 
 	</script>
+	<script>
+		$( document ).ready(function() {
+    	// Open links in new tab. Thanks http://stackoverflow.com/questions/4425198/markdown-target-blank
+ 			$('a').attr('target','_blank');
+		});
+		
+	</script>
 </head>
 
 	<body>
@@ -97,7 +104,7 @@
 <p>I have successfully installed <a href="http://jekyllrb.com">Jekyll</a>! And deployed it on <a href="https://pages.github.com">Github Pages</a>. I came across <a href="http://karan.github.io">Karan’s blog</a> and he told me the site is using Jekyll. I have been struggling to decide whether I should have my blog on Wordpress/Jekyll/Medium/<a href="https://svbtle.com">Svbtle</a>(I will write about on a new post some other time), but what really pushed me to start this Jekyll blog is because I stumbled across <a href="http://jekyllthemes.org/themes/thinny">this beautiful theme I could use</a> from <a href="http://jekyllthemes.org/">Jekyll Themes</a>.</p>
 
 <div id="article-img"><a href="/media/2014-04-23-hello-world/thinny.png" target="_blank"><img src="/media/2014-04-23-hello-world/thinny.png" alt="Screenshot of Thinny theme on Jekyll Themes." width="100%" /></a>
- <blockquote style="border-left: 10px solid #D5D5D5;">Screenshot of Thinny theme on Jekyll Themes. </blockquote></div>
+ <blockquote style="border-left: 10px solid #D5D5D5; margin-bottom:10px;">Screenshot of Thinny theme on Jekyll Themes. </blockquote></div>
 
 <p>I have problem installing Xcode Command Line Tools on my computer since <a href="https://medium.com/p/1a741836f226">CodeAcrossSeattle Hackathon</a>. Thank god I finally <a href="http://stackoverflow.com/questions/4518031/issue-installing-ruby-by-rvm-error-while-running-configure">found the solution on Stack Overflow</a>, I was installing the Command Line Tools on the wrong directory previously:</p>
 
@@ -120,7 +127,7 @@ xcode-select --switch /Library/Developer/CommandLineTools/
 </code></pre>
 
 <div id="article-img"><a href="/media/2014-04-23-hello-world/terminal.png" target="_blank"><img src="/media/2014-04-23-hello-world/terminal.png" alt="Ruby is successfully installed after I changed the Xcode directory." width="100%" /></a>
- <blockquote style="border-left: 10px solid #D5D5D5;">Ruby is successfully installed after I changed the Xcode directory. </blockquote></div>
+ <blockquote style="border-left: 10px solid #D5D5D5; margin-bottom:10px;">Ruby is successfully installed after I changed the Xcode directory. </blockquote></div>
 
 <h3 id="i-would-like-to-thank-these-post-authors-for-writing-these-resources-they-helped-me-a-lot">I would like to thank these post authors for writing these resources, they helped me a lot:</h3>
 <ul>
@@ -140,7 +147,7 @@ If this is not working you can always refer to the updated command on <a href="h
 <p>I also came across <a href="http://prose.io">Prose.io</a>, a content Editor for Github which allows users to preview the changes directly on Markdown, and it could function similar to Wordpress editor, which I am used to for writing blog posts. You can read more about Prose.io <a href="developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/">here</a>.</p>
 
 <div id="article-img"><a href="/media/2014-04-23-hello-world/prose.png" target="_blank"><img src="/media/2014-04-23-hello-world/prose.png" alt="Interface for Prose.io" width="100%" /></a>
- <blockquote style="border-left: 10px solid #D5D5D5;">Interface for Prose.io </blockquote></div>
+ <blockquote style="border-left: 10px solid #D5D5D5; margin-bottom:10px;">Interface for Prose.io </blockquote></div>
 
 <h2 id="setting-up-subdomain">Setting up Subdomain</h2>
 <p>Github has <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages">execellent documentation on setting up subdomain</a>. An important step is to setup the A records that resolve to the following IP addresses:</p>

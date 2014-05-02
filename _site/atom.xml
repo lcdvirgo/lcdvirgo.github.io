@@ -4,13 +4,206 @@
  <title>journal | madebychip</title>
  <link href="http://journal.madebychip.com/atom.xml" rel="self"/>
  <link href="http://journal.madebychip.com/"/>
- <updated>2014-04-25T04:45:46-07:00</updated>
+ <updated>2014-05-02T04:07:39-07:00</updated>
  <id>http://journal.madebychip.com</id>
  <author>
    <name>Chip Dong lim</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>LAHacks&#58; The most bizarre hackathon experience in my life</title>
+   <link href="http://journal.madebychip.com/blog/lahacks-the-most-bizarre-hackathon-experience-in-my-life"/>
+   <updated>2014-05-01T00:00:00-07:00</updated>
+   <id>http://journal.madebychip.com/blog/lahacks-the-most-bizarre-hackathon-experience-in-my-life</id>
+   <content type="html">&lt;p&gt;It was 2am, my team and I were wandering around the streets, looking for wifi.&lt;/p&gt;
+
+&lt;p&gt;We visited Starbucks before that opened 24/7 around the university area. Unfortunately it was crowded with homeless people and part of the area inside the coffee house was closed.&lt;/p&gt;
+
+&lt;p&gt;So we kept walking and explored the nearby hotels. Thanks to the very kind front desk staff, we crushed at Vintage Westwood Horizons’ hotel lobby at 3 in the morning because the WiFi connection got cut off at Pauley Pavilion. The internet was back at that time after LAHacks organizer announced it on Twitter, but we were too lazy to walk back so we pulled out our laptop and worked there.&lt;/p&gt;
+
+&lt;p&gt;I worked a little, and tried to get some sleep. The journey from Seattle - Los Angeles - UCLA was tiring. Dylan woke me up at 6am and we walked back to Pauley.&lt;/p&gt;
+
+&lt;h2 id=&quot;we-met-on-twitter&quot;&gt;We met on Twitter&lt;/h2&gt;
+&lt;p&gt;Arik, Dylan, Cary and I formed our team through Twitter. I tweeted to LAHacks organizer and they retweeted my tweet. Arik is a student flying from Tel Aviv and LAHacks was his last event he attended in the United States; Cary and Dylan are both computer science major at Cal Poly Pomona. &lt;br /&gt;&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/twitter.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/twitter.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;the-design-behind-snapchess&quot;&gt;The Design behind SnapChess&lt;/h2&gt;
+&lt;p&gt;Mystery guest speaker, Evan Spiegel, CEO of Snapchat made &lt;a href=&quot;https://twitter.com/adithyaiscool/status/454854832205996032&quot;&gt;a deep but great speech&lt;/a&gt; about privacy on the stage(&lt;a href=&quot;http://www.scribd.com/doc/217768898/2014-LA-Hacks-Keynote&quot;&gt;Keynote available at Scribd&lt;/a&gt;). Our idea was to make a parody out of it — so we built Snapchess within 36 hours, a democracy-mode chess game matchmaking web application. You have 10 seconds to decide your next move with your alliance. To make it more interesting and relevant to the audience, I had the idea of putting UCLA and USC in this game, since there is a rivalry between the two. And even better, you can hack the game — play on behalf of your enemy, make all the wrong moves, and completely ruins your enemy’s game.&lt;/p&gt;
+
+&lt;p&gt;I was inspired by a &lt;a href=&quot;https://dribbble.com/shots/710449-ursa-delaunay&quot;&gt;Dribbble shot&lt;/a&gt; using &lt;a href=&quot;http://www.creatogether.com/ai-delaunay-brush/&quot;&gt;Delaunay Raster script&lt;/a&gt;, but unfortunately Scriptographer is not available on CS6 due to &lt;a href=&quot;http://scriptographer.org/news/the-future-of-scriptographer-is-paper-js/&quot;&gt;Adobe’s automatic wrapping of native API issue&lt;/a&gt;. I tweeted Tomás, the owner of the Dribbble shot. He responded promptly and suggested me to use &lt;a href=&quot;http://dmesh.thedofl.com/&quot;&gt;Dmesh&lt;/a&gt; instead. I explored to use the tool for the first time, and the result was surprisingly beautiful.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Kodiak-Bear-small.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Kodiak-Bear-small.jpg&quot; alt=&quot;Original image of the bear I googled on the web. I do not own the copyright of this image.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Original image of the bear I googled on the web. I do not own the copyright of this image. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-27 at 12.54.56 AM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-27 at 12.54.56 AM.png&quot; alt=&quot;Process for converting in Dmesh.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Process for converting in Dmesh. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-12 at 12.57.25 PM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-12 at 12.57.25 PM.png&quot; alt=&quot;Working on Illustrator to take out the points and refine the design.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Working on Illustrator to take out the points and refine the design. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/bear-01.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/bear-01.png&quot; alt=&quot;Cleaned up version of the bear mascot for UCLA.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Cleaned up version of the bear mascot for UCLA. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/bear-final.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/bear-final.png&quot; alt=&quot;Final version of the UCLA bear with color scheme tweaks.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Final version of the UCLA bear with color scheme tweaks. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Usc_football_logo.gif&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Usc_football_logo.gif&quot; alt=&quot;I asked a guy from USC and he told me the trojans are more famous about the traveller. Apparently no one cares about the traveller mascot but I decided to use it anyway.&quot; width=&quot;50%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;I asked a guy from USC and he told me the trojans are more famous about the traveller. Apparently no one cares about the traveller mascot but I decided to use it anyway. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-12 at 4.23.00 PM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-12 at 4.23.00 PM.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/trojan-final-01.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/trojan-final-01.png&quot; alt=&quot;Color scheme is tweaked and here’s the final version for USC mascot.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Color scheme is tweaked and here’s the final version for USC mascot. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/logo-01.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/logo-01.png&quot; alt=&quot;Final version of logo for Snapchess&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Final version of logo for Snapchess &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-12 at 11.53.31 PM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-12 at 11.53.31 PM.png&quot; alt=&quot;Screenshot of the front page before I worked on the CSS styling. The links work.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Screenshot of the front page before I worked on the CSS styling. The links work. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-13 at 3.00.35 AM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-13 at 3.00.35 AM.png&quot; alt=&quot;I used Bootplus framework and apply the design for the frontpage.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;I used Bootplus framework and apply the design for the frontpage. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-12 at 5.23.39 PM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-12 at 5.23.39 PM.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-13 at 1.40.13 AM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-13 at 1.40.13 AM.png&quot; alt=&quot;PHP master Arik was debugging on the game page. This was the screenshot before styling.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;PHP master Arik was debugging on the game page. This was the screenshot before styling. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-27 at 1.04.29 AM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/Screen Shot 2014-04-27 at 1.04.29 AM.png&quot; alt=&quot;Game page integrated with homepage design and CSS styling.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Game page integrated with homepage design and CSS styling. &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/guKuQJ4Qx_0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;&quot; alt=&quot;Demo of Snapchess. I’m sorry if you don’t like Electronic Music :/ http://youtu.be/guKuQJ4Qx_0&quot; width=&quot;0&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Demo of Snapchess. I’m sorry if you don’t like Electronic Music :/ http://youtu.be/guKuQJ4Qx_0 &lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;the-end&quot;&gt;The End&lt;/h2&gt;
+&lt;p&gt;We had an expo after the hackathon was over and we were lining up on the table demoing our hacks. It was like a little SXSW at the event and I really like the idea. One of the feedback we received, which I think is helpful — is to create a login system which enables users to play based on weight and priority if you make the right moves most of the times.&lt;/p&gt;
+
+&lt;p&gt;We did not end up winning and I have expected that, since we did not use any of the sponsor’s API. Is SnapChess solving a big problem? No. But there’s currently no matchmaking for chess board game on the web right now(&lt;a href=&quot;http://www.twitch.tv/twitchplayspokemon&quot;&gt;Twitch Plays Pokemon&lt;/a&gt; for Chess). Is it fun? I would say yes.&lt;/p&gt;
+
+&lt;p&gt;Crushing at the hotel lobby at 3 in the morning and sleeping under the staircase at Pauley Pavilion — I had the most bizarre yet fun experience by attending the largest hackathon in my life(hacking with 1400 people!). I am really thankful for the organizers to make the event all possible, especially the prompt respond on Twitter.&lt;/p&gt;
+
+&lt;p&gt;Achievement unlocked.&lt;/p&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1626.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1626.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1628.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1628.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1635.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1635.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1640.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1640.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1643.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1643.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1644.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1644.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1652.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1652.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1653.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1653.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1654.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1654.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1662.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1662.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1663.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1663.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1664.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1664.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1665.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1665.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1667.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1667.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1672.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1672.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1673.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1673.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1676.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1676.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1679.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1679.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1681.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1681.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1683.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1683.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1685.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1685.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1686.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1686.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1688.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1688.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1690.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1690.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1691.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1691.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1692.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1692.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1693.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1693.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1694.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1694.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1695.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1695.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1703.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1703.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1706.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1706.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1708.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1708.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1710.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1710.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1711.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1711.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1713.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1713.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1715.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1715.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1747.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1747.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Something I learnt when I designed The Daily today</title>
@@ -24,30 +217,24 @@
 &lt;p&gt;Below is the screenshot in InDesign for the section that I designed last week. I took an info visualization approach because I want to make the facts and information eye catching for readers. And yeah, it turned out there’s some Microsoft agenda when I was designing it :)&lt;br /&gt;&lt;/p&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/0417.jpg&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/0417.jpg&quot; alt=&quot;Hops, Sip and a Chug beer section I desgined last week, which was published on April 18th.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
- &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Hops, Sip and a Chug beer section I desgined last week, which was published on April 18th. &lt;/blockquote&gt;&lt;/div&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Hops, Sip and a Chug beer section I desgined last week, which was published on April 18th. &lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;p&gt;The design was well-accepted according to Andre. But we need to create a new logo this week in addition of last week’s design. Initially I had an idea of having the title to become a graphics block at the left side bar of the section, but there’s more space on the top so I shifted it to become the top header.&lt;/p&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/ScreenShot 2014-04-24 at 10.32.27 PM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/ScreenShot 2014-04-24 at 10.32.27 PM.png&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt; &lt;/blockquote&gt;&lt;/div&gt;
 
-
-
-I was having a weird feeling about the design. The title looks like paper cut magazine style and it doesn&#39;t really suit the beer context. I had an inspiration from a picture on Pinterest that has artsy and letter-type fonts. Andrew recommended that I download some types from [LostType](http://www.losttype.com/), but then I raised the concern of commercial use license since The Daily is a for-profit organization. We resorted to use [Aw Conqueror from Typofonderie](https://typofonderie.com/fonts/aw-conqueror-family/), which is an awesome font with various styles, and it&#39;s free and for commercial use.
+&lt;p&gt;I was having a weird feeling about the design. The title looks like paper cut magazine style and it doesn’t really suit the beer context. I had an inspiration from a picture on Pinterest that has artsy and letter-type fonts. Andrew recommended that I download some types from &lt;a href=&quot;http://www.losttype.com/&quot;&gt;LostType&lt;/a&gt;, but then I raised the concern of commercial use license since The Daily is a for-profit organization. We resorted to use &lt;a href=&quot;https://typofonderie.com/fonts/aw-conqueror-family/&quot;&gt;Aw Conqueror from Typofonderie&lt;/a&gt;, which is an awesome font with various styles, and it’s free and for commercial use.&lt;/p&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/ScreenShot 2014-04-24 at 10.30.48 PM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/ScreenShot 2014-04-24 at 10.30.48 PM.png&quot; alt=&quot;Title font changed to Aw Conqueror.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
- &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Title font changed to Aw Conqueror. &lt;/blockquote&gt;&lt;/div&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Title font changed to Aw Conqueror. &lt;/blockquote&gt;&lt;/div&gt;
 
-
-
-After this was done, Andre raised the concern about the current design not having the title and info visualization matches together, because one has a grungy background and the other one is more of a flat design. In his opinion, last week&#39;s design has blended the title and the facts well. I listened to the feedback, agreed and decided that it&#39;s better to have a consistent design - it&#39;s either the background header has to be flat design, or the info blocks have to get the grungy background. I like the first option, so I changed the background and the font, and this is how it looks like for final design:
+&lt;p&gt;After this was done, Andre raised the concern about the current design not having the title and info visualization matches together, because one has a grungy background and the other one is more of a flat design. In his opinion, last week’s design has blended the title and the facts well. I listened to the feedback, agreed and decided that it’s better to have a consistent design - it’s either the background header has to be flat design, or the info blocks have to get the grungy background. I like the first option, so I changed the background and the font, and this is how it looks like for final design:&lt;/p&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/ScreenShot 2014-04-24 at 10.30.11 PM.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-24-something-i-learnt-when-i-designed-the-daily-today/ScreenShot 2014-04-24 at 10.30.11 PM.png&quot; alt=&quot;Changing title font and background to be consistent with page layout.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
- &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Changing title font and background to be consistent with page layout. &lt;/blockquote&gt;&lt;/div&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Changing title font and background to be consistent with page layout. &lt;/blockquote&gt;&lt;/div&gt;
 
-
-
-I was working there for more than 3 hours, which is way overtime than I am supposed to be. But I am documenting this because I have learnt something useful this evening. More iterations are going to come for the next few weeks, but I am happy how the design turned out - the consistent flat design throughout the section and the color scheme that match well together. 
-&lt;/div&gt;
+&lt;p&gt;I was working there for more than 3 hours, which is way overtime than I am supposed to be. But I am documenting this because I have learnt something useful this evening. More iterations are going to come for the next few weeks, but I am happy how the design turned out - the consistent flat design throughout the section and the color scheme that match well together. &lt;/p&gt;
 </content>
  </entry>
  
@@ -63,7 +250,7 @@ I was working there for more than 3 hours, which is way overtime than I am suppo
 &lt;p&gt;I have successfully installed &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;! And deployed it on &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;. I came across &lt;a href=&quot;http://karan.github.io&quot;&gt;Karan’s blog&lt;/a&gt; and he told me the site is using Jekyll. I have been struggling to decide whether I should have my blog on Wordpress/Jekyll/Medium/&lt;a href=&quot;https://svbtle.com&quot;&gt;Svbtle&lt;/a&gt;(I will write about on a new post some other time), but what really pushed me to start this Jekyll blog is because I stumbled across &lt;a href=&quot;http://jekyllthemes.org/themes/thinny&quot;&gt;this beautiful theme I could use&lt;/a&gt; from &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;Jekyll Themes&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/thinny.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/thinny.png&quot; alt=&quot;Screenshot of Thinny theme on Jekyll Themes.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
- &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Screenshot of Thinny theme on Jekyll Themes. &lt;/blockquote&gt;&lt;/div&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Screenshot of Thinny theme on Jekyll Themes. &lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;p&gt;I have problem installing Xcode Command Line Tools on my computer since &lt;a href=&quot;https://medium.com/p/1a741836f226&quot;&gt;CodeAcrossSeattle Hackathon&lt;/a&gt;. Thank god I finally &lt;a href=&quot;http://stackoverflow.com/questions/4518031/issue-installing-ruby-by-rvm-error-while-running-configure&quot;&gt;found the solution on Stack Overflow&lt;/a&gt;, I was installing the Command Line Tools on the wrong directory previously:&lt;/p&gt;
 
@@ -86,7 +273,7 @@ xcode-select --switch /Library/Developer/CommandLineTools/
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/terminal.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/terminal.png&quot; alt=&quot;Ruby is successfully installed after I changed the Xcode directory.&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
- &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Ruby is successfully installed after I changed the Xcode directory. &lt;/blockquote&gt;&lt;/div&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Ruby is successfully installed after I changed the Xcode directory. &lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;i-would-like-to-thank-these-post-authors-for-writing-these-resources-they-helped-me-a-lot&quot;&gt;I would like to thank these post authors for writing these resources, they helped me a lot:&lt;/h3&gt;
 &lt;ul&gt;
@@ -106,7 +293,7 @@ If this is not working you can always refer to the updated command on &lt;a href
 &lt;p&gt;I also came across &lt;a href=&quot;http://prose.io&quot;&gt;Prose.io&lt;/a&gt;, a content Editor for Github which allows users to preview the changes directly on Markdown, and it could function similar to Wordpress editor, which I am used to for writing blog posts. You can read more about Prose.io &lt;a href=&quot;developmentseed.org/blog/2012/june/25/prose-a-content-editor-for-github/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div id=&quot;article-img&quot;&gt;&lt;a href=&quot;/media/2014-04-23-hello-world/prose.png&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/media/2014-04-23-hello-world/prose.png&quot; alt=&quot;Interface for Prose.io&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
- &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5;&quot;&gt;Interface for Prose.io &lt;/blockquote&gt;&lt;/div&gt;
+ &lt;blockquote style=&quot;border-left: 10px solid #D5D5D5; margin-bottom:10px;&quot;&gt;Interface for Prose.io &lt;/blockquote&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;setting-up-subdomain&quot;&gt;Setting up Subdomain&lt;/h2&gt;
 &lt;p&gt;Github has &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages&quot;&gt;execellent documentation on setting up subdomain&lt;/a&gt;. An important step is to setup the A records that resolve to the following IP addresses:&lt;/p&gt;

@@ -57,42 +57,56 @@ Crushing at the hotel lobby at 3 in the morning and sleeping under the staircase
 Achievement unlocked.
 
 
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1626.jpg" width="100%" description="" %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1626.jpg" width="100%" description="Meeting Dylan and Arik for the first time after I flew in from Seattle on Friday afternoon." %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1628.jpg" width="100%" description="" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1635.jpg" width="100%" description="" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1640.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1643.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1644.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1652.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1653.jpg" width="100%" description="" %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1643.jpg" width="100%" description="From left to right: Arik, Cary, Dylan and Dylan’s cousin." %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1644.jpg" width="100%" description="Waiting in the queue before entering Pauley." %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1652.jpg" width="100%" description="LAHacks is the Disneyland of hackathons. Yes you need a wristband to go in." %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1653.jpg" width="100%" description="Crushing and coding at the hotel lobby at 3 in the morning." %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1654.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1662.jpg" width="100%" description="" %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1662.jpg" width="100%" description="In-And-Out Burger near UCLA." %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1663.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1664.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1665.jpg" width="100%" description="" %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1664.jpg" width="100%" description="Having dinner with Arik at BBQ Chicken." %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1665.jpg" width="100%" description="We skipped the Chipotle provided by LAHacks. That was worth it." %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1667.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1672.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1673.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1676.jpg" width="100%" description="" %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1672.jpg" width="100%" description="Alexis Ohanian and I founded Raddit, a redesigned version of Reddit 2.0 during LAHacks. It was pretty rad." %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1673.jpg" width="100%" description="Just happy to get my book signed. When Alexis came to UW, I was at HackAtBrown hackathon. When he came to Brown University, I was back to UW. So finally we met." %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1676.jpg" width="100%" description="Swallow pizza, drink red bull, and print all fibonacci number using python. “Disqualified, memory leaks.”" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1679.jpg" width="100%" description="" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1681.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1683.jpg" width="100%" description="" %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1683.jpg" width="100%" description="Adib and I formed a team during the first hackathon in my life — Mega CodeDay Seattle and we won 1st place. Now is my 10th hackathon. Time flies." %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1685.jpg" width="100%" description="" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1686.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1688.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1690.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1691.jpg" width="100%" description="" %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1688.jpg" width="100%" description="Arik, the PHP master and me." %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1690.jpg" width="100%" description="Demoing at the expo." %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1691.jpg" width="100%" description="Tred team demoed the Oculus Rift Treadmill system to let you physically walk in your virtual world. They won 1st place at LAHacks and the team members are Shariq Hashme, Charlie Hulcher, and Jake Rye. Youtube video: http://youtu.be/XcX1uGFR6SE" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1692.jpg" width="100%" description="" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1693.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1694.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1695.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1703.jpg" width="100%" description="" %}
-{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1706.jpg" width="100%" description="" %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1694.jpg" width="100%" description="Table#38: 15 years old highschool freshman made Gorrila Warfare shooting game." %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1695.jpg" width="100%" description="Table #31: Game maps your finger with touchdevelop using Makey makey and picks up potatoes." %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1703.jpg" width="100%" description="Table #32: Moozik lets users to type in their favorite artist and explore new music with similar genre. Built w/ gracenote & @rdio api" %}
+{% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1706.jpg" width="100%" description="Table #28: Crowdbox crowsources songs by letting users to vote on songs to be played in events" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1708.jpg" width="100%" description="" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1710.jpg" width="100%" description="" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1711.jpg" width="100%" description="" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1713.jpg" width="100%" description="" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1715.jpg" width="100%" description="" %}
 {% include image.html url="/media/2014-05-01-lahacks-the-most-bizarre-hackathon-experience-in-my-life/IMG_1747.jpg" width="100%" description="" %}
+
+<br>
+
+*This post is originally published at [Medium.com](https://medium.com/p/9ff0e33a98e3), but it is a shorter version with no additional pictures.*
+
+*Feel free to send me a tweet on Twitter if you have any feedback for me ☺*
+
+Demo: [http://snapchess.co](http://snapchess.co)
+
+Feel free to fork: [https://github.com/lcdvirgo/snapchess](https://github.com/lcdvirgo/snapchess)
+
+ChallengePost: [http://lahacks.challengepost.com/submissions/22803-snapchess](http://lahacks.challengepost.com/submissions/22803-snapchess)
+
+LA Weekly coverage: [http://www.laweekly.com/informer/2014/04/12/ucla-hosts-biggest-hackathon-in-history](http://www.laweekly.com/informer/2014/04/12/ucla-hosts-biggest-hackathon-in-history)
 
 

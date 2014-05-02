@@ -44,6 +44,9 @@ social:
   #  desc:	Inscreva-se no meu feed
     
 menu:
+  - title:  Home
+    url:  /
+
   - title:	Portfolio
     url:	http://madebychip.com
     

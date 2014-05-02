@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://journal.madebychip.com/blog/interacting-with-kids</loc>
+    </url>
+    
+    <url>
         <loc>http://journal.madebychip.com/blog/lahacks-the-most-bizarre-hackathon-experience-in-my-life</loc>
     </url>
     
@@ -69,6 +73,14 @@
     
     <url>
         <loc>http://journal.madebychip.com/sobre.html</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://journal.madebychip.com/page2/</loc>
     </url>
     
     
